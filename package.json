@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node -r esbuild-register src/index.ts",
     "test": "test",
-    "dev":"nodemon",
-    "predev":"open http://localhost:3000"
+    "dev": "nodemon",
+    "predev": "open http://localhost:3000"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.1",
     "express": "^4.17.1",
+    "socket.io": "^4.4.0",
     "typescript": "^4.5.2"
   },
   "devDependencies": {
